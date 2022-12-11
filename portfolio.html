@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1253beb9d2.js" crossorigin="anonymous"></script>
     <script src="portfolio.js"></script>
+    
 
     <!-- Title -->
     <title>Milan's Portfolio</title>
@@ -29,59 +30,97 @@
     <div>
 
     </div>
-    <!-- Lateral nav bar -->
+    <!-- Lateral nav bar ? -->
     <nav>
 
     </nav>
 
     <!-- Presentation part -->
-    <div></div>
+    <div id="Presentation">
+        <h1>Présentation personnelle</h1>
+        <p id="intro">Bonjour, je m'appelle Milan et voici un petit résumé personnel sur mon parcours jusqu'à aujourd'hui.</p>
+        <div id="double">
+            <div id="pres_left"><img id="ProfilePic" src="img/Profile Picture.jpg" alt="Photo de profil"></div>
+            <div id="pres_right">
+                <h3 id="pres_right_title">Informations basiques</h3>
+                <div id="pres_right_first_left">Nom : VICENTIJEVIC</div>
+                <div id="pres_right_second_left">Prénom : Milan</div>
+                <div id="pres_right_third_left">Âge : 20 ans</div>
+                <div id="pres_right_first_right">E-mail : milanvicentijevic9@gmail.com</div>
+                <div id="pres_right_second_right">Niveau d'étude validé : Bac (RNCP n°4)</div>
+                <div id="pres_right_third_right">Situation salariale : En alternance</div>
+            </div>
+            <p id="speech"> Mon parcours profesionnel est détaillé ci-dessous: j'ai obtenu le brevet des collèges avec mention Bien puis j'ai eu mon Bac STI2D avec mention Bien pour enfin atterrir à Ingetis après un an de prépa et mon but serait d'avoir au minimum un bac+3 avant de travailler en freelance ou dans un groupe automobile allemand.<br> Mes compétences techniques sont variées, du HTML/CSS/JS pure au bootstrap, j'essaie d'apprendre au maximum les différentes manières de coder le font d'un site. Pour le back end, je perfectionne mes connaissances de PHP, SQL. Mes atouts: passionné et perfectionniste, j'ai commencé par coder en OCAML, Python et en C# pour réaliser plusieurs projets pendant mon année de prépa.</p>
+        </div>
+    </div>
+
+    <!-- Skills acquiered & logos -->
+    <div id="logos" class="titre">
+        <h1 id="comp_title">Mes compétences</h1>
+        <div id="logo_grid">
+            <div id="front_end">
+                <h3 id="title_font">Front-end</h3>
+                <img id="img_font" src="img/code_logo.png" >
+            </div>
+            <div id="back_end">
+                <h3 id="title_back">Back-end</h3>
+                <img id="img_back" src="img/back_logo.webp" >
+            </div>
+            <div id="front_end">
+                <h3 id="title_poo">Object-Oriented Language</h3>
+                <div id="comp_last">
+                    <img src="img/csharp.png" id="csharp">
+                    <img src="img/python.png" id="python">
+                </div>
+                <img src="img/ocaml-modified.png" id="ocaml">
+            </div>
+        </div>
+    </div>
 
     <!-- Company & schools summary -->
     <div></div>
 
-    <!-- CV add button js -->
-    <button></button>
-
-    <!-- Skills acquiered & logos -->
-    <img>
-
     <!-- Internship -->
+    <div id="alternance" class="titre mb-4">
+        <h1 class="mb-4">Mon CFA</h1>
+        <div id="alternance_body">
+            <div class="mb-2 alt">Se situant au 5<sup>ème</sup> arrondissment de Paris (à côté du Panthéon), Ingétis propose pas mal de formation allant du BTS jusqu'au BAC+5 en passant par le BAC+3 et le tout en alternance. </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8387708660466!2d2.340746751227938!3d48.84221397918423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6721cc9189b8b%3A0x6207b0c22616df2c!2sINGETIS%20Paris!5e0!3m2!1sfr!2sfr!4v1668502991505!5m2!1sfr!2sfr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div> 
+
+    <!-- School's projects (link github ?) 
+    <button><a></a></button>-->
+
+    <!-- Technology watch -->
     <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8387708660466!2d2.340746751227938!3d48.84221397918423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6721cc9189b8b%3A0x6207b0c22616df2c!2sINGETIS%20Paris!5e0!3m2!1sfr!2sfr!4v1668502991505!5m2!1sfr!2sfr"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a></a><button></button></a>
     </div>
-
-    <!-- Other projects (link github) -->
-    <button><a></a></button>
-
-    <!-- School's projects (link github) -->
-    <button><a></a></button>
-
-    <!-- Technology watch (pdf link && RSS flux ?) -->
-    <button><a></a></button>
 
     <!-- Today's skills -->
     <slideshow></slideshow>
 
     <!-- Contact Me (google maps API) -->
-    <div class="titre contact">Me contacter</div>
+    <div class="titre contact">
+        <h2>Me contacter</h2>
+    </div>
 
 
     <div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKkG02-UGasTUtgc2DUwbsc3USyy2WpoQ&callback=initMap&v=weekly" defer></script>
 
-    <div class="info">
+    <div class="info mb-4">
         <a class="loc" href="https://www.google.fr/maps/place/La+Courneuve+-+Six+Routes/@48.9300036,2.3825907,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66c05f66880c7:0x531f8ab6db0a5e3c!8m2!3d48.9300036!4d2.3847847">
             <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-geo-alt" viewBox="0 0 16 16">
         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
       </svg> La Courneuve, 93120 </a>
-        <a href="tel:+337-83-39-22-80">
+        <a class="tel" href="tel:+337-83-39-22-80">
             <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-phone" viewBox="0 0 16 16">
         <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
         <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg> (+33) 07.83.39.22.80</a>
-        <a href="mailto:milanvicentijevic9@gmail.com?Subject= Contacted by Milan's Portfolio">
+        <a class="mail" href="mailto:milanvicentijevic9@gmail.com?Subject= Contacted by Milan's Portfolio">
             <svg xmlns=" http://www.w3.org/2000/svg" class="bi bi-envelope-at" viewBox="0 0 16 16 ">
         <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7
         4.2-7-4.2Z "/>
@@ -110,7 +149,7 @@
 
             <!-- Right part grid -->
             <div class="titre three ">Mon curriculum vitae</div>
-            <button class="cv ">Afficher le cv</button>
+            <a class="cv" href="img/cv.pdf">Afficher le cv</a>
         </div>
 
         <!-- Copyright part -->
