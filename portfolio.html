@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <!-- Header -->
 
@@ -27,13 +27,14 @@
 <body>
 
     <!-- Top nav bar -->
-    <div>
-
+    <div class="topnav">
+        <a class="active" href="#top">Présentation</a>
+        <a href="#logos_a">Compétences</a>
+        <a href="#alternance_a">Alternance</a>
+        <a href="#veille_a">Veille technologique</a>
+        <a href="#contact_a">Me contacter</a>
+        <a href="#social_network_a">Réseaux sociaux</a>
     </div>
-    <!-- Lateral nav bar ? -->
-    <nav>
-
-    </nav>
 
     <!-- Presentation part -->
     <div id="Presentation">
@@ -55,6 +56,7 @@
     </div>
 
     <!-- Skills acquiered & logos -->
+    <div id="logos_a"></div>
     <div id="logos" class="titre">
         <h1 id="comp_title">Mes compétences</h1>
         <div id="logo_grid">
@@ -81,6 +83,7 @@
     <div></div>
 
     <!-- Internship -->
+    <div id="alternance_a"></div>
     <div id="alternance" class="titre mb-4">
         <h1 class="mb-4">Mon CFA</h1>
         <div id="alternance_body">
@@ -94,19 +97,28 @@
     <button><a></a></button>-->
 
     <!-- Technology watch -->
-    <div>
-        <a></a><button></button></a>
+    <div id="veille_a"></div>
+    <div id="veille" class="titre mb-4">
+        <h1 class="mb-4">Ma veille technologique</h1>
+        <div id="veille_body">
+            <div id="veille_texte" class="mb-3">Avec l'avancement rapide des connexions à internet sans-fil, je voulais d'abord faire ma veille technologique sur la 6G, mais étant donnée que cela est très lointain et que, par conséquence, il n'y a pas beaucoup d'Informations sur cette technologie, j'ai décidé de choisir la technologie de la Wi-Fi 7 pour ma veille technologique.</div>
+            <div id="veille_grid">
+                <a id="veille_first_btn" href="veille_techno_wifi_7/Veille technologique sur le Wi-Fi 7.pptx"><i class="fa-regular fa-file-powerpoint ppt"></i>Veille techno Wi-Fi 7 (ppt version)</a>
+                <a id="veille_second_btn" href="veille_techno_wifi_7/Notes sur Wi-Fi 7.txt" target="_blank"><i class="fa-solid fa-note-sticky notes"></i>Veille techno Wi-Fi 7 (txt/infos brutes version)</a>
+            </div>
+        </div>
     </div>
 
     <!-- Today's skills -->
     <slideshow></slideshow>
 
     <!-- Contact Me (google maps API) -->
+    <div id="contact_a"></div>
     <div class="titre contact">
-        <h2>Me contacter</h2>
+        <h1>Me contacter</h1>
     </div>
 
-
+    <!-- Google Map API for Maps plan with JS -->
     <div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKkG02-UGasTUtgc2DUwbsc3USyy2WpoQ&callback=initMap&v=weekly" defer></script>
 
@@ -133,6 +145,7 @@
     <!-- Footer + socials links -->
 
     <footer>
+        <div id="social_network_a"></div>
         <div id="social_network">
 
             <!-- Left part grid -->

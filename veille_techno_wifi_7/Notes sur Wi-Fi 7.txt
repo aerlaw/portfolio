@@ -1,0 +1,53 @@
+Nom : Wi-Fi 7
+Norme IEEE : 802.11be
+Débit max théorique : 46 Gbit/s
+Bandes : 2.4, 5 et 6 GHz (comme Wi-Fi 6e)
+Taille canal : jusqu'à 320MHz
+Modulation : 4096 QAM OFDMA enhanced
+Débit : 16 x 16 UL/DL MU-MIMO
+RU : Multi-RU
+MAC : MLO
+Date prévue: Début 2023 pour l'international et 2024 pour nos FAI.
+
+-----------------------------------------------------------------------------------
+
+Vitesse max théorique:
+
+- Wi-Fi 5, 2013 => 7 000 Mb/s
+- Wi-Fi 6, 2019 => 9 600 Mb/s
+- Wi-Fi 7, 2024 => 46 080 Mb/s
+
+
+Flux de données:
+
+Là où le Wi-Fi 6 peut gérer jusqu'à 8 flux de données, le Wi-Fi 7 pourra comporter jusqu'à 16 flux de données: soit 2x plus de "routes" disponibles.
+
+
+Modulation:
+
+La modulation permet, entre autres, la mise en paquet d'information de manière plus ordonnée et là où le Wi-Fi 6 (et le Wi-Fi 6e) utilisait du 1024-QAM avec la technologie OFDMA, le Wi-Fi 7 utilisera du 4096-QAM avec l'amélioration de la technologie OFDMA: OFDMA Enhanced. Pour faire simple, on va encoder m'information sur 12 bit (au lieu de 10 pour le  Wi-Fi 6/6e) et jusqu'à 320 MHz, ce qui permettra d'obtenir une amélioration de 20% d'encodage en plus sur un même période comparé au Wi-Fi 6/6e.
+
+
+Bandes: 
+
+Pour les bandes, le Wi-Fi 7 se base sur le Wi-Fi 6e et utilisera les bandes: 2.4 GHz, 5GHz et 6GHz (là où le Wi-Fi 6 ne possède que les deux premières bandes).
+
+
+Taille du canal:
+
+Les tailles de canal déjà éxistants sont: 20, 40, 80, 80+80(1 canal lent et 1 rapide), 160 et avec le Wi-Fi 7, il y aura la taille 320 MHz.
+
+
+Débit:
+
+Le Wi-Fi 6 utilise du 8 x 8 UpLoad/DownLoad en Multi User-Multi Input Multi Output alors que le Wi-Fi 7 utilisera du 16x16 MU-MIMO ce qui doublera le nombre de connexion/échange instantané.
+
+
+MRU et Puncturing:
+
+Le Wi-Fi 6 utilise la technologie de l'OFDMA (cela permet de sous-diviser les paquets en sous-paquets permettant de transporter plus de quantité d'information dans un même canal). Dans l'ensemble, l'utilisation de l'OFDMA à permit de réduire le 25% la latence entre le Wi-Fi 5 et le Wi-Fi 6. Et l'utilisation de l'OFDMA Enhanced (son amélioration) permettra d'obtenir une nouvelle réduction de la latence de 20% par rapport au Wi-Fi 6.
+
+
+Multi-Link Operations: 
+
+Avec le Wi-Fi 7, une nouvelle technologie apparaitra, le MLO. Cela consiste pour un smartphone à pouvoir utiliser plusieurs bandes passantes au lieu d'une seule afin de contourner d'éventuelle saturation. Le MLO permettera de réduire la latence jusqu'à 85% dans les cas les plus extrêmes.
