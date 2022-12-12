@@ -28,15 +28,21 @@
 
     <!-- Top nav bar -->
     <div class="topnav">
-        <a class="active" href="#top">Présentation</a>
+        <a href="#top" id="A">MV</a>
+        <a href="#presentation_a">Présentation</a>
         <a href="#logos_a">Compétences</a>
-        <a href="#alternance_a">Alternance</a>
+        <a href="#entreprise_a">Entreprise</a>
+        <a href="#alternance_a">CFA</a>
         <a href="#veille_a">Veille technologique</a>
-        <a href="#contact_a">Me contacter</a>
-        <a href="#social_network_a">Réseaux sociaux</a>
+        <a href="#contact_a">Localisation</a>
+        <a href="#social_network_a">Me contacter</a>
+    </div>
+    <div id="background">
+        <img src="img/background.jpg" id="img_bg" alt="Photo de paris">
     </div>
 
     <!-- Presentation part -->
+    <div id="presentation_a"></div>
     <div id="Presentation">
         <h1>Présentation personnelle</h1>
         <p id="intro">Bonjour, je m'appelle Milan et voici un petit résumé personnel sur mon parcours jusqu'à aujourd'hui.</p>
@@ -79,8 +85,29 @@
         </div>
     </div>
 
-    <!-- Company & schools summary -->
-    <div></div>
+    <!-- Company introduction summary -->
+    <div id="entreprise_a"></div>
+    <div id="entreprise" class="titre mb-4">
+        <h1 class="mb-4">L' entreprise</h1>
+        <div id="entreprise_texte">
+            <p class="mb-4">Durant mon alternance de BTS, j'ai su appliquer mes connaissances acquises en cours, apprendre en autodidacte et perfectionner mes compétences afin de réaliser un site vitrine pour l'entreprise Mima.</p>
+            <div id="entreprise_grid">
+                <h3 id="ent_first_title">Nom de l'entreprise : </h3>
+                <div id="ent_first_texte">SARL Mima</div>
+                <h3 id="ent_second_title">Localisation : </h3>
+                <div id="ent_second_texte">
+                    <a class="loc" href="https://goo.gl/maps/wWboasKZHv6LBifs9">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> 47 rue Oberkampf, 75011 Paris</a>
+                </div>
+                <h3 id="ent_third_title">But de l'alternance : </h3>
+                <div id="ent_third_texte">Faire un site web afin de référencer dans un 1<sup>er</sup> temps la société, et ensuite pour destocker du tissu.</div>
+                <a id="site" href="http://localhost/mima.php" target="_blank"><img src="img/csharp.png" alt="Photo site alternance"></a>
+            </div>
+        </div>
+    </div>
 
     <!-- Internship -->
     <div id="alternance_a"></div>
@@ -115,14 +142,28 @@
     <!-- Contact Me (google maps API) -->
     <div id="contact_a"></div>
     <div class="titre contact">
-        <h1>Me contacter</h1>
+        <h1>Localisation</h1>
     </div>
 
     <!-- Google Map API for Maps plan with JS -->
     <div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKkG02-UGasTUtgc2DUwbsc3USyy2WpoQ&callback=initMap&v=weekly" defer></script>
+    <div id="paris">
+        <p id="loc_texte">Me situant aux alentours de Paris, j'ai à ma disposition de nombreux moyens de transport pour me déplacer. Et si vous voulez me joindre, voici ci-dessous mes coordonnées principales afin d'échanger d'autres informations si vous en avez besoin.</p>
+        <div id="paris_grid">
+            <ul>
+                <li class="list-unstyled"><span class="moyen">Moyens de transport</span>
+                    <ul class="markers">
+                        <li>Voiture | Moto</li>
+                        <li>Métro   | RER</li>
+                        <li>Tram    | Bus</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-    <div class="info mb-4">
+    <div class="info">
         <a class="loc" href="https://www.google.fr/maps/place/La+Courneuve+-+Six+Routes/@48.9300036,2.3825907,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66c05f66880c7:0x531f8ab6db0a5e3c!8m2!3d48.9300036!4d2.3847847">
             <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-geo-alt" viewBox="0 0 16 16">
         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
@@ -149,9 +190,9 @@
         <div id="social_network">
 
             <!-- Left part grid -->
-            <div class="titre one ">Mon centre de formation</div>
-            <div class="one ">INGETIS PARIS</div>
-            <div class="one ">62 bus Rue Gay-Lussac, 75005 Paris</div>
+            <div class="titre one">Mon centre de formation</div>
+            <div class="one">INGETIS PARIS</div>
+            <div class="one">62 bus Rue Gay-Lussac, 75005 Paris</div>
 
             <!-- Middle part grid -->
             <div class="titre two ">Mes réseaux sociaux</div>
