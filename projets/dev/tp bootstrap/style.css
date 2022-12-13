@@ -1,0 +1,12 @@
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+.slide {
+    width: 100%;
+    height: 600px;
+    border-radius: 25px;
+}

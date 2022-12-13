@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <lang="fr">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <form action='datapush.php' method='post'>
+        <div class="text-center">
+            <label class="text-primary display-4">Inscription for a job</label>
+        </div>
+        <div class="form-group">
+            <label>Your Name</label>
+            <input type='text' name="name" placeholder="Miller" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label> Your Job</label>
+            <input type='text' name="job" placeholder="Clerk" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label> Salary</label>
+            <input type='text' name="salary" placeholder="1300 €" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Department's name</label>
+            <input type='text' name="dname" placeholder="Accounting" class="form-control" />
+            <label>Department's code</label>
+            <input type='text' name="deptno" placeholder="10" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label> Location</label>
+            <input type='text' name="location" placeholder="New York" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label> Hiredate</label>
+            <input type='date' name="hiredate" class="form-control" />
+        </div>
+        <div class="text-center form-group">
+            <button type="submit" class="btn btn-primary text-center">Envoyer</button>
+        </div>
+    </form>
+</body>
+
+</html>
