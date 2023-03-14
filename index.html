@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<!-- Header -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milan Vicentijevic - Portfolio</title>
+    <meta name="description" content="Portfolio de Milan Vicentijevic - Etudiant en dev & reseau en alternance">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- JavaScripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1253beb9d2.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+    
+
+    <!-- Title -->
+    <title>Milan's Portfolio</title>
+</head>
+
+<!-- Body -->
+
+<body>
+
+    <!-- Top nav bar -->
+    <div class="topnav">
+        <a href="#top" id="A">MV</a>
+        <a href="#presentation_a">Présentation</a>
+        <a href="#logos_a">Compétences</a>
+        <a href="#entreprise_a">Entreprise</a>
+        <a href="#alternance_a">CFA</a>
+        <a href="#projets_a">Projets </a>
+        <a href="#veille_a">Veille technologique</a>
+        <a href="#contact_a">Localisation</a>
+        <a href="#social_network_a">Me contacter</a>
+    </div>
+    <div id="background">
+        <img src="img/background.jpg" id="img_bg" alt="Photo de paris">
+    </div>
+
+    <!-- Presentation part -->
+    <div id="presentation_a"></div>
+    <div id="Presentation">
+        <h1>Présentation personnelle</h1>
+        <p id="intro">Bonjour, je m'appelle Milan et voici un petit résumé personnel sur mon parcours jusqu'à aujourd'hui.</p>
+        <div id="double">
+            <div id="pres_left"><img id="ProfilePic" src="img/Profile Picture.jpg" alt="Photo de profil"></div>
+            <div id="pres_right">
+                <h3 id="pres_right_title">Informations basiques</h3>
+                <div id="pres_right_first_left">Nom : VICENTIJEVIC</div>
+                <div id="pres_right_second_left">Prénom : Milan</div>
+                <div id="pres_right_third_left">Âge : 21 ans</div>
+                <div id="pres_right_first_right">E-mail : milanvicentijevic9@gmail.com</div>
+                <div id="pres_right_second_right">Niveau d'étude validé : Bac (RNCP n°4)</div>
+                <div id="pres_right_third_right">Situation salariale : En alternance</div>
+            </div>
+            <p id="speech"> Mon parcours profesionnel est détaillé ci-dessous: j'ai obtenu le brevet des collèges avec mention Bien puis j'ai eu mon Bac STI2D avec mention Bien pour enfin atterrir à Ingetis après un an de prépa et mon but serait d'avoir au minimum un bac+3 avant de travailler en freelance ou dans un groupe automobile allemand.<br> Mes compétences techniques sont variées, du HTML/CSS/JS pure au bootstrap, j'essaie d'apprendre au maximum les différentes manières de coder le font d'un site. Pour le back end, je perfectionne mes connaissances de PHP, SQL. Mes atouts: passionné et perfectionniste, j'ai commencé par coder en OCAML, Python et en C# pour réaliser plusieurs projets pendant mon année de prépa.</p>
+        </div>
+    </div>
+
+    <!-- Skills acquiered & logos -->
+    <div id="logos_a"></div>
+    <div id="logos" class="titre">
+        <h1 id="comp_title">Mes compétences</h1>
+        <div id="logo_grid">
+            <div id="front_end">
+                <h3 id="title_font">Front-end</h3>
+                <img id="img_font" src="img/code_logo.png" >
+            </div>
+            <div id="back_end">
+                <h3 id="title_back">Back-end</h3>
+                <img id="img_back" src="img/back_logo.webp" >
+            </div>
+            <div id="front_end">
+                <h3 id="title_poo">Object-Oriented Language</h3>
+                <div id="comp_last">
+                    <img src="img/csharp.png" id="csharp">
+                    <img src="img/python.png" id="python">
+                </div>
+                <img src="img/ocaml-modified.png" id="ocaml">
+            </div>
+        </div>
+    </div>
+
+    <!-- Company introduction summary -->
+    <div id="entreprise_a"></div>
+    <div id="entreprise" class="titre mb-4">
+        <h1 class="mb-4">L' entreprise</h1>
+        <div id="entreprise_texte">
+            <p class="mb-4">Durant mon alternance de BTS, j'ai su appliquer mes connaissances acquises en cours, apprendre en autodidacte et perfectionner mes compétences afin de réaliser un site vitrine pour l'entreprise Mima.</p>
+            <div id="entreprise_grid">
+                <h3 id="ent_first_title">Nom de l'entreprise : </h3>
+                <div id="ent_first_texte">SARL Mima</div>
+                <h3 id="ent_second_title">Localisation : </h3>
+                <div id="ent_second_texte">
+                    <a class="loc" href="https://goo.gl/maps/wWboasKZHv6LBifs9">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> 47 rue Oberkampf, 75011 Paris</a>
+                </div>
+                <h3 id="ent_third_title">But de l'alternance : </h3>
+                <div id="ent_third_texte">Faire un site web afin de référencer dans un 1<sup>er</sup> temps la société, et ensuite pour destocker du tissu.</div>
+                <a id="site" href="http://localhost/mima.php" target="_blank"><img src="img/mima.png" alt="Photo site alternance"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Internship -->
+    <div id="alternance_a"></div>
+    <div id="alternance" class="titre mb-4">
+        <h1 class="mb-4">Mon CFA</h1>
+        <div id="alternance_body">
+            <div class="mb-2 alt">Se situant au 5<sup>ème</sup> arrondissment de Paris (à côté du Panthéon), Ingétis propose pas mal de formation allant du BTS jusqu'au BAC+5 en passant par le BAC+3 et le tout en alternance. </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8387708660466!2d2.340746751227938!3d48.84221397918423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6721cc9189b8b%3A0x6207b0c22616df2c!2sINGETIS%20Paris!5e0!3m2!1sfr!2sfr!4v1668502991505!5m2!1sfr!2sfr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div> 
+
+    <!-- School's projects --> 
+    <div id="projets_a"></div>
+    <div id="projets" class="titre mb-4">
+        <h1 class="mb-4">Projets réalisés</h1>
+        <div class="projets_body">
+            <div id="projets_txt" class="mb-3">Durant mes deux années d'alternance, j'ai réaliser pas mal de projets que ce soit en en développement web ou en réseau. Vous pouvez tous les retrouvez dans mon <a href="https://github.com/aerlaw">Github</a>. En voici quelques-uns :</div>
+            <div id="projets_grid">
+                <h3 id="projets_title">Projets de développement web</h3>
+                <li id="c1r2"><a href="http://localhost/FeedMe-Main/FeedMe.php" target="_blank"> Le projet E5 en client léger</a></li>
+                <li id="c1r3"><a href="http://localhost/mima.php" target="_blank"> Mima | Site de l'alternance</a></li>
+                <li id="c1r4"><a href="#top"> Mon portfolio</a></li>
+                <h3 id="projets_title_two">Projets de réseaux</h3>
+                <li id="c2r2"><a href="projets/reseau/Presentation_de_Flexbox.pptx"> La présentation de l'AP 1</a></li>
+                <li id="c2r3"><a href="projets/reseau/Doc technique VLAN (projet DYLAN).docx"> Une documentation technique sur les VLAN</a></li>
+                <li id="c2r4"><a href="projets/reseau/doc technique tp wireshark h4cked.docx"> Un documentation technique sur Wireshark</a></li>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technology watch -->
+    <div id="veille_a"></div>
+    <div id="veille" class="titre mb-4">
+        <h1 class="mb-4">Ma veille technologique</h1>
+        <div id="veille_body">
+            <div id="veille_texte" class="mb-3">Avec l'avancement rapide des connexions à internet sans-fil, je voulais d'abord faire ma veille technologique sur la 6G, mais étant donnée que cela est très lointain et que, par conséquence, il n'y a pas beaucoup d'Informations sur cette technologie, j'ai décidé de choisir la technologie de la Wi-Fi 7 pour ma veille technologique.</div>
+            <div id="veille_grid">
+                <a id="veille_first_btn" href="veille_techno_wifi_7/Veille technologique sur le Wi-Fi 7.pptx"><i class="fa-regular fa-file-powerpoint ppt"></i>Veille techno Wi-Fi 7 (ppt version)</a>
+                <a id="veille_second_btn" href="veille_techno_wifi_7/Notes sur Wi-Fi 7.txt" target="_blank"><i class="fa-solid fa-note-sticky notes"></i>Veille techno Wi-Fi 7 (txt/infos brutes version)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Today's skills -->
+    <div id="certification_a"></div>
+    <div id="certification" class="titre mb-4">
+        <h1 class="mb-4">Mes certifications</h1>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://www.udemy.com/certificate/UC-ae0ae6e3-b2f9-4afd-9743-ba17a018b748/"><img src="./img/slideshow/udemy_html_css_expert.jpg" class="d-block slideshow" alt="Udemy HTML CSS certification"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.udemy.com/certificate/UC-32be2811-6f0e-45c1-8400-0435c6d55fc1/"><img src="./img/slideshow/udemy_html_css_js.jpg" class="d-block slideshow" alt="Udemy PHP bootstrap JS certification"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.udemy.com/certificate/UC-9fb8df94-ed6f-49a3-ac52-13e30ad2ad77/"><img src="./img/slideshow/udemy_php.jpg" class="d-block slideshow" alt="Udemy PHP certification"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.freecodecamp.org/certification/Aerlaw/responsive-web-design"><img src="./img/slideshow/fcc_resp_web.png" class="d-block slideshow" alt="FreeCodeCamp Web Responsive certification"></a>
+                  </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div id="contact_a"></div>
+    <div class="titre contact">
+        <h1>Localisation</h1>
+    </div>
+    
+    <iframe id="home" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.308029334925!2d2.3831507511903456!3d48.928574579192826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66c0f75cd8ed3%3A0x9a46da069cb57ce3!2s119%20Bd%20Pasteur%2C%2093120%20La%20Courneuve!5e0!3m2!1sfr!2sfr!4v1676973922582!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div id="map"></div>
+    <div id="paris">
+        <p id="loc_texte">Me situant aux alentours de Paris, j'ai à ma disposition de nombreux moyens de transport pour me déplacer. Et si vous voulez me joindre, voici ci-dessous mes coordonnées principales afin d'échanger d'autres informations si vous en avez besoin.</p>
+        <div id="paris_grid">
+            <ul>
+                <li class="list-unstyled transport"><span class="moyen">Moyens de transport</span>
+                    <ul class="markers">
+                        <li>Voiture | Moto</li>
+                        <li>Métro   | RER</li>
+                        <li>Tram    | Bus</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="info">
+        <a class="loc" href="https://www.google.fr/maps/place/La+Courneuve+-+Six+Routes/@48.9300036,2.3825907,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66c05f66880c7:0x531f8ab6db0a5e3c!8m2!3d48.9300036!4d2.3847847">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-geo-alt" viewBox="0 0 16 16">
+        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      </svg> La Courneuve, 93120 </a>
+        <a class="tel" href="tel:+337-83-39-22-80">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-phone" viewBox="0 0 16 16">
+        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg> (+33) 07.83.39.22.80</a>
+        <a class="mail" href="mailto:milanvicentijevic9@gmail.com?Subject= Contacted by Milan's Portfolio">
+            <svg xmlns=" http://www.w3.org/2000/svg" class="bi bi-envelope-at" viewBox="0 0 16 16 ">
+        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7
+        4.2-7-4.2Z "/>
+        <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657
+        1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648
+        1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z "/>
+      </svg> milan.vicentijevic9@gmail.com</a>
+    </div>
+
+    <!-- Footer + socials links -->
+
+    <footer>
+        <div id="social_network_a"></div>
+        <div id="social_network">
+
+            <!-- Left part grid -->
+            <div class="titre one">Mon centre de formation</div>
+            <div class="one">INGETIS PARIS</div>
+            <div class="one"><a data-toggle="modal" href="#modal">62 bus Rue Gay-Lussac, 75005 Paris</a></div>
+
+            <!-- Middle part grid -->
+            <div class="titre two ">Mes réseaux sociaux</div>
+            <a class="fb " href="https://www.facebook.com/milan.vicentijevic.754 "><i class="fab fa-facebook "></i></a>
+            <a class="insta " href="https://www.instagram.com/milan_vctc "><i class="fab fa-instagram "></i></a>
+            <a class="tw " href="https://www.twitter.com/Aerlaw5 "><i class="fab fa-twitter "></i></a>
+            <a class="git " href="https://github.com/aerlaw"><i class="fab fa-github "></i></a>
+
+            <!-- Right part grid -->
+            <div class="titre three ">Mon curriculum vitae</div>
+                <button type="button" class="btn btn-primary cv" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Afficher le cv
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Mon curriculum vitae</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <iframe id="iframe-cv" src="img/cv.pdf"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright part -->
+        <div class="bot ">
+            <div class="rights text-center ">VICENTIJEVIC Milan's Portfolio</div>
+            <div class="rights text-center ">© 2023 - All rights reserved</div>
+        </div>
+    </footer>
+</body>
+
+</html>

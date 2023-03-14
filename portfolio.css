@@ -14,7 +14,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 0.8em;
+    width: 0.7em;
 }
 
 ::-webkit-scrollbar-track {
@@ -24,7 +24,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: repeating-linear-gradient(35deg, #ffffff, #ffffff 8px, #f30404 5px, #d31212 25px );
+    background-color: #ff0003;
+    background-image: linear-gradient(180deg, #DD0000 0%, #003893 50%, #ffffff 100%);
     border-radius: 100vw;
 }
 
@@ -489,6 +490,21 @@ a:hover {
     color: white;
 }
 
+    /* Certifications */
+
+.slideshow {
+    width: 1000px !important;
+    height: 560px !important;
+    border-radius: 25px;
+    box-sizing: content-box;
+    clip-path: border-box;
+    margin-left: 65px;
+}
+
+.carousel-indicators {
+    margin-bottom: 3px !important;
+}
+
     /* Localisation */
 
 .titre {
@@ -496,7 +512,7 @@ a:hover {
     margin-right: 12%;
 }
 
-#map {
+#home {
     margin-left: 15%;
     margin-top: 20px;
     width: 70%;
@@ -672,6 +688,15 @@ footer {
 .cv:hover {
     box-shadow: inset 700px 0 0 0 #ed441e;
     color: white;
+}
+
+.modal-content {
+    color: black;
+    height: 600px;
+    margin-top: 90px;
+}
+#iframe-cv {
+    height: 500px;
 }
 
     /* Copyright part */
